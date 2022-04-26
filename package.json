@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:dawidurbanski/ckeditor-two-columns.git"
+    "url": "git@github.com:wwalc/ckeditor-two-columns.git"
   },
   "contributors": [
     "Lauri Eskola (lauriii)",
@@ -17,9 +17,9 @@
   ],
   "license": "GPL-2.0-or-later",
   "bugs": {
-    "url": "https://github.com/dawidurbanski/ckeditor-two-columns/issues"
+    "url": "https://github.com/wwalc/ckeditor-two-columns/issues"
   },
-  "homepage": "https://github.com/dawidurbanski/ckeditor-two-columns#readme",
+  "homepage": "https://github.com/wwalc/ckeditor-two-columns#readme",
   "devDependencies": {
     "raw-loader": "^4.0.2",
     "terser-webpack-plugin": "^3.0.2",
