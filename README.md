@@ -13,6 +13,8 @@ It provides CKEditor 5 plugin for adding structured markup.
 
 ## More inspiration
 
+ * https://github.com/lauriii/ckeditor5-layercake
+
  * https://github.com/zrpnr/ckeditor5-drupal-layercake 
  * https://github.com/zrpnr/ckeditor5-layercake
 
