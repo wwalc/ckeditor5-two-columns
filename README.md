@@ -1,7 +1,8 @@
 # ckeditor5-two-columns
 
 This is just an example project for demonstrating how to extend CKEditor 5 in Drupal.
-It provides CKEditor 5 plugin for adding structured markup.
+
+It provides CKEditor 5 plugin for adding a widget with two columns.
 
 <img width="1570" alt="image" src="https://user-images.githubusercontent.com/545175/165393242-b384764c-5f25-4cb4-84c8-65124a4f682c.png">
 
