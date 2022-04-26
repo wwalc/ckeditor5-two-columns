@@ -1,6 +1,8 @@
 # ckeditor5-two-columns
-Drupal module that provides one CKEditor5 plugin for adding structured markup
-This is an example project for demonstrating how to extend the [Drupal CKEditor5 module](https://drupal.org/project/ckeditor5).
+
+This is just an example project for demonstrating how to extend CKEditor 5 in Drupal.
+It provides CKEditor 5 plugin for adding structured markup.
+
 ## Installation
 
 * Clone the repo into your modules directory:
