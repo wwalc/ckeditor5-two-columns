@@ -1,6 +1,6 @@
 # ckeditor5-two-columns
 
-This is just an example project for demonstrating how to extend CKEditor 5 in Drupal.
+This is just an example project for demonstrating how to extend CKEditor 5 in Drupal 9/10.
 
 It provides CKEditor 5 plugin for adding a widget with two columns.
 
