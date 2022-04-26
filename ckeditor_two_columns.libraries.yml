@@ -1,0 +1,13 @@
+twocolumns:
+  js:
+    js/build/twocolumns.js: { minified: true }
+  css:
+    theme:
+      css/layout.css: {}
+  dependencies:
+    - ckeditor5/ckeditor5
+
+admin:
+  css:
+    theme:
+      css/admin.css: {}

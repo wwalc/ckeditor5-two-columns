@@ -1,0 +1,14 @@
+ckeditor_two_columns_columns:
+  ckeditor5:
+    plugins:
+      - TwoColumns.TwoColumns
+  drupal:
+    label: Two columns
+    library: ckeditor_two_columns/twocolumns
+    admin_library: ckeditor_two_columns/admin
+    toolbar_items:
+      twoColumns:
+        label: Two columns
+    elements:
+      - <div class="layout__col">
+      - <section class="layout--two-col">

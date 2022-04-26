@@ -1,0 +1,30 @@
+{
+  "name": "ckeditor5-two-columns",
+  "version": "1.0.0",
+  "description": "Provides two columns layout plugin for CKEditor 5",
+  "main": "index.js",
+  "scripts": {
+    "dll:build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dawidurbanski/ckeditor-two-columns.git"
+  },
+  "contributors": [
+    "Lauri Eskola (lauriii)",
+    "Peter Weber (zrpnr)",
+    "Dawid Urbański"
+  ],
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/dawidurbanski/ckeditor-two-columns/issues"
+  },
+  "homepage": "https://github.com/dawidurbanski/ckeditor-two-columns#readme",
+  "devDependencies": {
+    "raw-loader": "^4.0.2",
+    "terser-webpack-plugin": "^3.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^4.4.0",
+    "ckeditor5": "^33.0.0"
+  }
+}

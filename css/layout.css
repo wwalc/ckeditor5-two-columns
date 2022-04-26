@@ -1,0 +1,10 @@
+@media (min-width: 480px) {
+  .layout--two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.layout__col {
+  padding: .5rem;
+}

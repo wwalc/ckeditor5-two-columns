@@ -1,0 +1,8 @@
+name: CKEditor 5 Two Columns
+type: module
+description: "Provides two columns layout plugin for CKEditor 5."
+package: CKEditor5
+core_version_requirement: ^9
+dependencies:
+  - drupal:editor
+  - ckeditor5:ckeditor5
