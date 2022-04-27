@@ -9,7 +9,7 @@ It provides CKEditor 5 plugin for adding a widget with two columns.
 ## Installation
 
 * Clone the repo into your modules directory:
-  `git clone git@github.com:wwalc/ckeditor-two-columns.git ckeditor_two_columns`
+  `git clone git@github.com:wwalc/ckeditor5-two-columns.git ckeditor5_two_columns`
 * `npm install`
 * `npm run dll:build`
 * Install as you would normally install a contributed Drupal module.
