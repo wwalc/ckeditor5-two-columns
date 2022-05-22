@@ -1,6 +1,7 @@
 import { Command } from 'ckeditor5/src/core';
 
 export default class InsertTwoColumnsCommand extends Command {
+  // Runs only when the command is executed.
   execute() {
     const { model } = this.editor;
 
@@ -12,6 +13,9 @@ export default class InsertTwoColumnsCommand extends Command {
       writer.append(col1, twoCol);
       writer.append(col2, twoCol);
 
+      // [UX enhancement] 
+      // Here we intentionally insert an empty paragraph to which we will later move the selection.
+      // This way the user will be able to immediately start typing in the newly created column.
       const paragraph = writer.createElement('paragraph');
       writer.append(paragraph, col1);
       writer.appendElement('paragraph', col2);
@@ -22,6 +26,7 @@ export default class InsertTwoColumnsCommand extends Command {
     });
   }
 
+  // Runs every time changes are made to the model, including changing the selection.
   refresh() {
     const { model } = this.editor;
     const { selection } = model.document;
@@ -30,6 +35,7 @@ export default class InsertTwoColumnsCommand extends Command {
       'twoColumns',
     );
 
+    // Command is enabled whenever the <twoCol> is allowed in the current selection.
     this.isEnabled = allowedIn !== null;
   }
 }

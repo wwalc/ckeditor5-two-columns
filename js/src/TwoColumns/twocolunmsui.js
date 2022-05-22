@@ -17,6 +17,7 @@ export default class TwoColumnsUI extends Plugin {
         tooltip: true
       });
 
+      // The button will be enabled only when the command will be.
       buttonView.bind('isOn', 'isEnabled').to(command, 'value', 'isEnabled');
 
       this.listenTo(buttonView, 'execute', () => {
