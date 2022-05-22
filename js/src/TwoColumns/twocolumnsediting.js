@@ -22,14 +22,14 @@ export default class TwoColumnsEditing extends Plugin {
     const schema = this.editor.model.schema;
 
     schema.register('twoColumns', {
-      isObject: true,
-      allowWhere: '$block',
+      isObject: true, // Whether an item is "self-contained" and should be treated as a whole.
+      allowWhere: '$block', // Allow everywhere where $block elements are allowed.
     });
 
     schema.register('column', {
-      isLimit: true,
+      isLimit: true, // It can be understood as whether this element should not be split by "Enter".
       allowIn: 'twoColumns',
-      allowContentOf: '$root',
+      allowContentOf: '$root', // Allow children of anything that is allowed in $root.
     });
   }
 
